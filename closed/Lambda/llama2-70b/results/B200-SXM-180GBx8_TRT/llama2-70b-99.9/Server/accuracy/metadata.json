@@ -1,9 +1,34 @@
 {
-    "audit_success": true,
-    "audit_test": "TEST06",
-    "benchmark_full": "llama2-70b-99",
+    "accuracy": [
+        {
+            "name": "ROUGE1",
+            "pass": true,
+            "threshold": 44.3867688,
+            "value": 44.7857
+        },
+        {
+            "name": "ROUGE2",
+            "pass": true,
+            "threshold": 22.0131648,
+            "value": 22.3868
+        },
+        {
+            "name": "ROUGEL",
+            "pass": true,
+            "threshold": 28.5875838,
+            "value": 29.1451
+        },
+        {
+            "name": "TOKENS_PER_SAMPLE",
+            "pass": true,
+            "threshold": 265.005,
+            "value": 273.8
+        }
+    ],
+    "accuracy_pass": true,
+    "benchmark_full": "llama2-70b-99.9",
     "benchmark_short": "llama2-70b",
-    "config_name": "B200-SXM-180GBx8_TRT-custom_k_99_MaxP-Server",
+    "config_name": "B200-SXM-180GBx8_TRT-custom_k_99_9_MaxP-Server",
     "detected_system": {
         "__obj_class__": "<class 'nvmitten.system.component.Description'>",
         "data": {
@@ -345,16 +370,13 @@
             }
         }
     },
-    "early_stopping_met": false,
-    "effective_min_duration_ms": 0,
+    "effective_min_duration_ms": 2400000,
     "effective_min_query_count": 100,
-    "result_completed_tokens_per_second": 7969.37,
-    "result_validity": "INVALID",
     "satisfies_query_constraint": false,
     "scenario": "Server",
     "scenario_key": "result_completed_tokens_per_second",
-    "summary_string": "result_completed_tokens_per_second: 7969.37, Result is INVALID, 10-min runtime requirement met: False",
+    "summary_string": "[PASSED] ROUGE1: 44.786 (Threshold=44.387) | [PASSED] ROUGE2: 22.387 (Threshold=22.013) | [PASSED] ROUGEL: 29.145 (Threshold=28.588) | [PASSED] TOKENS_PER_SAMPLE: 273.800 (Threshold=265.005)",
     "system_name": "B200-SXM-180GBx8_TRT",
     "tensorrt_version": "10.8.0.43",
-    "test_mode": "PerformanceOnly"
+    "test_mode": "AccuracyOnly"
 }
