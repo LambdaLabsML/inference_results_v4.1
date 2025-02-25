@@ -1,20 +1,20 @@
-[2025-02-25 12:39:23,278 submission_checker.py:2178 ERROR] closed/Lambda has the following empty directories: ['closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99.9', 'closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99']
-[2025-02-25 12:39:23,278 submission_checker.py:3167 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3173 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3176 ERROR] NoResults closed/Lambda
-[2025-02-25 12:39:23,278 submission_checker.py:3262 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3263 INFO] Results=0, NoResults=1, Power Results=0
-[2025-02-25 12:39:23,278 submission_checker.py:3270 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3271 INFO] Closed Results=0, Closed Power Results=0
+[2025-02-25 15:56:25,582 submission_checker.py:2178 ERROR] closed/Lambda has the following empty directories: ['closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99.9', 'closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99']
+[2025-02-25 15:56:25,582 submission_checker.py:3167 INFO] ---
+[2025-02-25 15:56:25,582 submission_checker.py:3173 INFO] ---
+[2025-02-25 15:56:25,582 submission_checker.py:3176 ERROR] NoResults closed/Lambda
+[2025-02-25 15:56:25,582 submission_checker.py:3262 INFO] ---
+[2025-02-25 15:56:25,582 submission_checker.py:3263 INFO] Results=0, NoResults=1, Power Results=0
+[2025-02-25 15:56:25,582 submission_checker.py:3270 INFO] ---
+[2025-02-25 15:56:25,582 submission_checker.py:3271 INFO] Closed Results=0, Closed Power Results=0
 
-[2025-02-25 12:39:23,278 submission_checker.py:3276 INFO] Open Results=0, Open Power Results=0
+[2025-02-25 15:56:25,582 submission_checker.py:3276 INFO] Open Results=0, Open Power Results=0
 
-[2025-02-25 12:39:23,278 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
+[2025-02-25 15:56:25,583 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
 
-[2025-02-25 12:39:23,278 submission_checker.py:3286 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3288 INFO] Systems=0, Power Systems=0
-[2025-02-25 12:39:23,278 submission_checker.py:3292 INFO] Closed Systems=0, Closed Power Systems=0
-[2025-02-25 12:39:23,278 submission_checker.py:3297 INFO] Open Systems=0, Open Power Systems=0
-[2025-02-25 12:39:23,278 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
-[2025-02-25 12:39:23,278 submission_checker.py:3307 INFO] ---
-[2025-02-25 12:39:23,278 submission_checker.py:3309 ERROR] SUMMARY: submission has errors
+[2025-02-25 15:56:25,583 submission_checker.py:3286 INFO] ---
+[2025-02-25 15:56:25,583 submission_checker.py:3288 INFO] Systems=0, Power Systems=0
+[2025-02-25 15:56:25,583 submission_checker.py:3292 INFO] Closed Systems=0, Closed Power Systems=0
+[2025-02-25 15:56:25,583 submission_checker.py:3297 INFO] Open Systems=0, Open Power Systems=0
+[2025-02-25 15:56:25,583 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
+[2025-02-25 15:56:25,583 submission_checker.py:3307 INFO] ---
+[2025-02-25 15:56:25,583 submission_checker.py:3309 ERROR] SUMMARY: submission has errors
