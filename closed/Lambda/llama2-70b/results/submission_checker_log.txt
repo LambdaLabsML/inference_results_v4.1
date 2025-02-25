@@ -1,0 +1,34 @@
+[2025-02-25 02:06:22,081 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,084 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,087 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,087 submission_checker.py:1516 INFO] Target latency: None, Latency: 2778079322284, Scenario: Offline
+[2025-02-25 02:06:22,088 submission_checker.py:3084 ERROR] no compliance dir for closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline: closed/NVIDIA/compliance/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline
+[2025-02-25 02:06:22,088 submission_checker.py:2585 ERROR] compliance dir closed/NVIDIA/compliance/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline has issues
+[2025-02-25 02:06:22,088 submission_checker.py:2629 ERROR] closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9 does not have all required scenarios, missing {'Server'}
+[2025-02-25 02:06:22,090 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,093 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,096 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-25 02:06:22,096 submission_checker.py:1516 INFO] Target latency: None, Latency: 2778079322284, Scenario: Offline
+[2025-02-25 02:06:22,096 submission_checker.py:2629 ERROR] closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99 does not have all required scenarios, missing {'Server'}
+[2025-02-25 02:06:22,097 submission_checker.py:3167 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99/Offline 97317.7
+[2025-02-25 02:06:22,097 submission_checker.py:3173 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3176 ERROR] NoResults closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99
+[2025-02-25 02:06:22,097 submission_checker.py:3176 ERROR] NoResults closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9
+[2025-02-25 02:06:22,097 submission_checker.py:3176 ERROR] NoResults closed/NVIDIA/results/B200-SXM-180GBx8_TRT/llama2-70b-99.9/Offline
+[2025-02-25 02:06:22,097 submission_checker.py:3262 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3263 INFO] Results=1, NoResults=3, Power Results=0
+[2025-02-25 02:06:22,097 submission_checker.py:3270 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3271 INFO] Closed Results=2, Closed Power Results=0
+
+[2025-02-25 02:06:22,097 submission_checker.py:3276 INFO] Open Results=0, Open Power Results=0
+
+[2025-02-25 02:06:22,097 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
+
+[2025-02-25 02:06:22,097 submission_checker.py:3286 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3288 INFO] Systems=1, Power Systems=0
+[2025-02-25 02:06:22,097 submission_checker.py:3292 INFO] Closed Systems=1, Closed Power Systems=0
+[2025-02-25 02:06:22,097 submission_checker.py:3297 INFO] Open Systems=0, Open Power Systems=0
+[2025-02-25 02:06:22,097 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
+[2025-02-25 02:06:22,097 submission_checker.py:3307 INFO] ---
+[2025-02-25 02:06:22,097 submission_checker.py:3309 ERROR] SUMMARY: submission has errors
