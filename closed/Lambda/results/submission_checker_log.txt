@@ -1,20 +1,59 @@
-[2025-02-25 20:27:01,270 submission_checker.py:2178 ERROR] closed/Lambda has the following empty directories: ['closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99.9', 'closed/Lambda/results/H200-SXM-141GBx8_TRT/gptj-99']
-[2025-02-25 20:27:01,270 submission_checker.py:3167 INFO] ---
-[2025-02-25 20:27:01,270 submission_checker.py:3173 INFO] ---
-[2025-02-25 20:27:01,270 submission_checker.py:3176 ERROR] NoResults closed/Lambda
-[2025-02-25 20:27:01,270 submission_checker.py:3262 INFO] ---
-[2025-02-25 20:27:01,270 submission_checker.py:3263 INFO] Results=0, NoResults=1, Power Results=0
-[2025-02-25 20:27:01,270 submission_checker.py:3270 INFO] ---
-[2025-02-25 20:27:01,270 submission_checker.py:3271 INFO] Closed Results=0, Closed Power Results=0
+[2025-02-27 17:38:19,634 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,637 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,641 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,641 submission_checker.py:1497 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2025-02-27 17:38:19,644 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,647 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,650 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,650 submission_checker.py:1516 INFO] Target latency: None, Latency: 2587834984659, Scenario: Offline
+[2025-02-27 17:38:19,654 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Server/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,657 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,659 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,660 submission_checker.py:1497 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2025-02-27 17:38:19,663 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,665 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,668 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,668 submission_checker.py:1516 INFO] Target latency: None, Latency: 2587242191699, Scenario: Offline
+[2025-02-27 17:38:19,671 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,674 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,677 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,677 submission_checker.py:1497 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2025-02-27 17:38:19,680 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,683 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,686 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,686 submission_checker.py:1516 INFO] Target latency: None, Latency: 2587834984659, Scenario: Offline
+[2025-02-27 17:38:19,689 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,692 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,695 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,695 submission_checker.py:1497 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2025-02-27 17:38:19,698 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,701 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,703 log_parser.py:59 INFO] Sucessfully loaded MLPerf log from closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2025-02-27 17:38:19,704 submission_checker.py:1516 INFO] Target latency: None, Latency: 2587242191699, Scenario: Offline
+[2025-02-27 17:38:19,704 submission_checker.py:2058 ERROR] invalid division in input dir Lambda.02.27.2025.11:35AM
+[2025-02-27 17:38:19,704 submission_checker.py:3167 INFO] ---
+[2025-02-27 17:38:19,704 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Offline 35385.1
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99.9/Server 33045.3
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Offline 35385.1
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-99/Server 33045.3
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Offline 35409.4
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99.9/Server 19381.0
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Offline 35409.4
+[2025-02-27 17:38:19,705 submission_checker.py:3171 INFO] Results closed/NVIDIA/results/H200-SXM-141GBx8_TRT/llama2-70b-interactive-99/Server 19381.0
+[2025-02-27 17:38:19,705 submission_checker.py:3173 INFO] ---
+[2025-02-27 17:38:19,705 submission_checker.py:3262 INFO] ---
+[2025-02-27 17:38:19,705 submission_checker.py:3263 INFO] Results=8, NoResults=0, Power Results=0
+[2025-02-27 17:38:19,705 submission_checker.py:3270 INFO] ---
+[2025-02-27 17:38:19,705 submission_checker.py:3271 INFO] Closed Results=8, Closed Power Results=0
 
-[2025-02-25 20:27:01,270 submission_checker.py:3276 INFO] Open Results=0, Open Power Results=0
+[2025-02-27 17:38:19,705 submission_checker.py:3276 INFO] Open Results=0, Open Power Results=0
 
-[2025-02-25 20:27:01,270 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
+[2025-02-27 17:38:19,705 submission_checker.py:3281 INFO] Network Results=0, Network Power Results=0
 
-[2025-02-25 20:27:01,270 submission_checker.py:3286 INFO] ---
-[2025-02-25 20:27:01,270 submission_checker.py:3288 INFO] Systems=0, Power Systems=0
-[2025-02-25 20:27:01,270 submission_checker.py:3292 INFO] Closed Systems=0, Closed Power Systems=0
-[2025-02-25 20:27:01,270 submission_checker.py:3297 INFO] Open Systems=0, Open Power Systems=0
-[2025-02-25 20:27:01,271 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
-[2025-02-25 20:27:01,271 submission_checker.py:3307 INFO] ---
-[2025-02-25 20:27:01,271 submission_checker.py:3309 ERROR] SUMMARY: submission has errors
+[2025-02-27 17:38:19,705 submission_checker.py:3286 INFO] ---
+[2025-02-27 17:38:19,705 submission_checker.py:3288 INFO] Systems=1, Power Systems=0
+[2025-02-27 17:38:19,705 submission_checker.py:3292 INFO] Closed Systems=1, Closed Power Systems=0
+[2025-02-27 17:38:19,705 submission_checker.py:3297 INFO] Open Systems=0, Open Power Systems=0
+[2025-02-27 17:38:19,705 submission_checker.py:3302 INFO] Network Systems=0, Network Power Systems=0
+[2025-02-27 17:38:19,705 submission_checker.py:3307 INFO] ---
+[2025-02-27 17:38:19,705 submission_checker.py:3312 INFO] SUMMARY: submission looks OK
